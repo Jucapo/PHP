@@ -22,6 +22,7 @@ if (!$post) {
 	header('Location: index.php');
 }
 
-$post = $post[0];
+
+$posts = $post;
 
 require 'views/single.view.php';
